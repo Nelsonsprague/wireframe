@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+.clearfix::after {
+clear: both;
+content: "";
+display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #333;
+    color: #777;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer, section, nav, aside{
+    margin: 10px;
+background: #fff;
+padding: 20px;
+}
+
+.article-box {
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    color: #333;
+}
+
+article {
+    color: #ccc;
+    background: #333;
+    padding: 20px;
+}
+
+section {
+    float: left;
+    width: 48%;
+    height: 280px;
+}
+
+aside {
+    float: left;
+    width: 48%;
+    height: 280px;
+}
